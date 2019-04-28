@@ -1,0 +1,82 @@
+h1 {
+  background-color: #E91E63;
+  color :#CCFF00;
+}
+
+h2 {
+   colour : white;
+   width: fit-content;
+   padding: 0.25em;
+   margin: 0.175em;
+   border-radius: 2px;
+   background-color: #FF8A65;
+
+}
+
+div.center-contents {
+  text-align: center;
+  color: #0000FF;
+}
+body{
+  background-color: #D4E157   ;
+  font-family: cursive;
+  font-size: bold;
+}
+ul {
+  padding: 0;
+}
+
+/* li {
+  padding: 3px;
+  margin-bottom: 5px;
+  list-style-type: none;
+} */
+
+li {
+width: fit-content;
+padding: 0.25em;
+margin: 0.175em;
+border-radius: 2px;
+}
+
+
+li:nth-of-type(even) {
+  background-color: #D1C4E9  ;
+}
+
+li:nth-of-type(odd) {
+  background-color: #F8BBD0  ;
+}
+ul li:hover {
+  color: red;
+  background-color: black;
+}
+
+span.last_name::before {
+ content: ' - ';
+}
+span.select::before {
+  content: ' - ';
+}
+span.team::before {
+  content: ' - ';
+}
+span.country::before {
+  content: ' - ';
+}
+label{
+  width: fit-content;
+  /* padding: 0.25em;
+  margin: 0.175em;
+  border-radius: 2px; */
+
+}
+fieldset {
+  border: none;
+}
+#addlist {
+  background-color: #CCFFFF;
+}
+#delete {
+  background-color: #CCFFFF;
+}
